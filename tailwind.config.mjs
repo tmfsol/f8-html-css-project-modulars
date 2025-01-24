@@ -12,7 +12,8 @@ const tailwindConfig = {
 
 	theme: {
 		fontFamily: {
-			sans: ['"Be Vietnam Pro"', 'sans-serif']
+			poppins: ['Poppins', 'sans-serif'],
+			'public-sans': ['"Public Sans"', 'sans-serif']
 		},
 
 		colors: {
@@ -25,122 +26,29 @@ const tailwindConfig = {
 			primary: {
 				DEFAULT: 'rgba(var(--color-primary-default))',
 				50: 'rgba(var(--color-primary-50))',
-				100: 'rgba(var(--color-primary-100))',
 				200: 'rgba(var(--color-primary-200))',
 				300: 'rgba(var(--color-primary-300))',
 				400: 'rgba(var(--color-primary-400))',
-				500: 'rgba(var(--color-primary-500))',
 				600: 'rgba(var(--color-primary-600))',
-				700: 'rgba(var(--color-primary-700))',
-				800: 'rgba(var(--color-primary-800))',
-				900: 'rgba(var(--color-primary-900))',
-				950: 'rgba(var(--color-primary-950))'
+				900: 'rgba(var(--color-primary-900))'
 			},
 
-			// Accent Colors
-			error: {
-				DEFAULT: 'rgba(var(--color-error-default))',
-				50: 'rgba(var(--color-error-50))',
-				100: 'rgba(var(--color-error-100))',
-				200: 'rgba(var(--color-error-200))',
-				300: 'rgba(var(--color-error-300))',
-				400: 'rgba(var(--color-error-400))',
-				500: 'rgba(var(--color-error-500))',
-				600: 'rgba(var(--color-error-600))',
-				700: 'rgba(var(--color-error-700))',
-				800: 'rgba(var(--color-error-800))',
-				900: 'rgba(var(--color-error-900))',
-				950: 'rgba(var(--color-error-950))'
-			},
-
-			success: {
-				DEFAULT: 'rgba(var(--color-success-default))',
-				50: 'rgba(var(--color-success-50))',
-				100: 'rgba(var(--color-success-100))',
-				200: 'rgba(var(--color-success-200))',
-				300: 'rgba(var(--color-success-300))',
-				400: 'rgba(var(--color-success-400))',
-				500: 'rgba(var(--color-success-500))',
-				600: 'rgba(var(--color-success-600))',
-				700: 'rgba(var(--color-success-700))',
-				800: 'rgba(var(--color-success-800))',
-				900: 'rgba(var(--color-success-900))',
-				950: 'rgba(var(--color-success-950))'
-			},
-
-			warning: {
-				DEFAULT: 'rgba(var(--color-warning-default))',
-				50: 'rgba(var(--color-warning-50))',
-				100: 'rgba(var(--color-warning-100))',
-				200: 'rgba(var(--color-warning-200))',
-				300: 'rgba(var(--color-warning-300))',
-				400: 'rgba(var(--color-warning-400))',
-				500: 'rgba(var(--color-warning-500))',
-				600: 'rgba(var(--color-warning-600))',
-				700: 'rgba(var(--color-warning-700))',
-				800: 'rgba(var(--color-warning-800))',
-				900: 'rgba(var(--color-warning-900))',
-				950: 'rgba(var(--color-warning-950))'
-			},
-
-			info: {
-				DEFAULT: 'rgba(var(--color-info-default))',
-				50: 'rgba(var(--color-info-50))',
-				100: 'rgba(var(--color-info-100))',
-				200: 'rgba(var(--color-info-200))',
-				300: 'rgba(var(--color-info-300))',
-				400: 'rgba(var(--color-info-400))',
-				500: 'rgba(var(--color-info-500))',
-				600: 'rgba(var(--color-info-600))',
-				700: 'rgba(var(--color-info-700))',
-				800: 'rgba(var(--color-info-800))',
-				900: 'rgba(var(--color-info-900))',
-				950: 'rgba(var(--color-info-950))'
-			},
-
-			// https://v3.tailwindcss.com/docs/customizing-colors - slate, gray, zinc, stone tôi chưa đủ kiến thức về design nên hiện tại tôi cho giống neutral
-			// gray color(tôi xem nó như neutral) base #737373 - only reference like color-text, color-disabled, color-border,...
-			gray: {
-				DEFAULT: 'rgba(var(--color-gray-default))',
-				50: 'rgba(var(--color-gray-50))',
-				100: 'rgba(var(--color-gray-100))',
-				200: 'rgba(var(--color-gray-200))',
-				300: 'rgba(var(--color-gray-300))',
-				400: 'rgba(var(--color-gray-400))',
-				500: 'rgba(var(--color-gray-500))',
-				600: 'rgba(var(--color-gray-600))',
-				700: 'rgba(var(--color-gray-700))',
-				800: 'rgba(var(--color-gray-800))',
-				900: 'rgba(var(--color-gray-900))',
-				950: 'rgba(var(--color-gray-950))'
+			'burnt-orange': {
+				DEFAULT: 'rgba(var(--color-burnt-orange-default))',
+				500: 'rgba(var(--color-burnt-orange-500))'
 			},
 
 			text: {
 				DEFAULT: 'rgba(var(--color-text-default))',
+				200: 'rgba(var(--color-text-200))',
 				400: 'rgba(var(--color-text-400))',
 				500: 'rgba(var(--color-text-500))',
-				700: 'rgba(var(--color-text-700))',
-				900: 'rgba(var(--color-text-900))'
-			},
-
-			disabled: {
-				DEFAULT: 'rgba(var(--color-disabled-default))',
-				100: 'rgba(var(--color-disabled-100))',
-				200: 'rgba(var(--color-disabled-200))',
-				300: 'rgba(var(--color-disabled-300))'
+				800: 'rgba(var(--color-text-800))'
 			},
 
 			border: {
 				DEFAULT: 'rgba(var(--color-border-default))',
-				200: 'rgba(var(--color-border-200))',
-				500: 'rgba(var(--color-border-500))',
-				600: 'rgba(var(--color-border-600))'
-			},
-
-			bg: {
-				DEFAULT: 'rgba(var(--color-bg-default))',
-				50: 'rgba(var(--color-bg-50))',
-				100: 'rgba(var(--color-bg-100))'
+				500: 'rgba(var(--color-border-500))'
 			}
 		},
 
