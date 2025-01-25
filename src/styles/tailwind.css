@@ -36,12 +36,12 @@
 
 	/* Font family */
 	html {
-		font-family: 'Poppins', sans-serif;
+		@apply font-poppins text-text;
 	}
 }
 
 @layer components {
-	.mixin-text-white {
-		@apply text-white;
+	.container {
+		@apply mx-auto w-[71.25rem] max-w-[calc(100%-3rem)];
 	}
 }
