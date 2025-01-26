@@ -40,6 +40,7 @@ const tailwindConfig = {
 
 			text: {
 				DEFAULT: 'rgba(var(--color-text-default))',
+				50: 'rgba(var(--color-text-50))',
 				200: 'rgba(var(--color-text-200))',
 				400: 'rgba(var(--color-text-400))',
 				500: 'rgba(var(--color-text-500))',

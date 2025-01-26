@@ -1,13 +1,12 @@
 import ControlLeftIcon from '~/components/icons/ControlLeftIcon';
 import ControlRightIcon from '~/components/icons/ControlRightIcon';
+import SectionTitle from '~/components/SectionTitle';
 
 const Service = () => {
 	return (
 		<section className="py-16">
 			<div className="container">
-				<p className="relative left-[46px] font-medium before:absolute before:-left-[46px] before:top-[8px] before:block before:h-[1px] before:w-6 before:bg-text-800">
-					OUR SERVICES
-				</p>
+				<SectionTitle>OUR SERVICES</SectionTitle>
 
 				<div className="flex">
 					<h2 className="relative mt-3 w-[520px] text-[2.625rem] font-semibold leading-[3.25rem] text-text-800 after:absolute after:bottom-5 after:ml-6 after:h-[2px] after:w-[66px] after:bg-text-800">
