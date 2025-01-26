@@ -144,6 +144,17 @@ const tailwindConfig = {
 			'7xl': ['4.5rem', '4.5rem'], // font-size: 72px, line-height: 72px
 			'8xl': ['6rem', '6rem'], // font-size: 96px, line-height: 96px
 			'9xl': ['8rem', '8rem'] // font-size: 128px, line-height: 128px
+
+			// Design fontSize, improve sau
+			// 14px, 24px
+			// 16px, 26px
+			// 16px, 36px
+			// 18px, 28px
+			// 18px, 30px
+			// 22px, 22px
+			// 32px, 48px
+			// 42px, 52px
+			// 50px, 60px
 		},
 
 		screens: {

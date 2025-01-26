@@ -6,12 +6,8 @@ const Service = () => {
 	return (
 		<section className="py-16">
 			<div className="container">
-				<SectionTitle>OUR SERVICES</SectionTitle>
-
 				<div className="flex">
-					<h2 className="relative mt-3 w-[520px] text-[2.625rem] font-semibold leading-[3.25rem] text-text-800 after:absolute after:bottom-5 after:ml-6 after:h-[2px] after:w-[66px] after:bg-text-800">
-						We offer a wide range of design services
-					</h2>
+					<SectionTitle title="OUR SERVICES">We offer a wide range of design services</SectionTitle>
 					<div className="ml-auto flex gap-x-4">
 						<ControlLeftIcon />
 						<ControlRightIcon />

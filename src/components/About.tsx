@@ -76,10 +76,12 @@ const About = () => {
 						</div>
 					</div>
 					<section className="w-[486px]">
-						<SectionTitle>ABOUT US</SectionTitle>
-						<h2 className="mt-5 text-[2.625rem] font-semibold leading-[3.25rem] text-text-800">
+						<SectionTitle
+							title="ABOUT US"
+							decorateAfter={false}
+						>
 							We are an extention of your creative team
-						</h2>
+						</SectionTitle>
 						<p className="mt-3 text-[1rem] font-medium leading-[1.625rem] text-text-200">
 							At the start of every project, we cusomizea detailed project plan together with you set exectationns
 							ensure alighment and define key milestones and deiverbles.

@@ -3,6 +3,7 @@ import Brand from '~/components/Brand';
 import Footer from '~/components/Footer';
 import Header from '~/components/Header';
 import Hero from '~/components/Hero';
+import Process from '~/components/Process';
 import Service from '~/components/Service';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
 				<Brand />
 				<Service />
 				<About />
+				<Process />
 			</main>
 
 			<Footer />
