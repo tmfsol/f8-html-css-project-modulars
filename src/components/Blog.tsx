@@ -21,7 +21,7 @@ const Blog = () => {
 							<a href="#!">
 								<img
 									className="h-full w-full object-cover transition-all group-hover:scale-125"
-									src="/assets/imgs/blog-1.jpg"
+									src="./assets/imgs/blog-1.jpg"
 									alt=""
 								/>
 							</a>
@@ -46,7 +46,7 @@ const Blog = () => {
 							<a href="#!">
 								<img
 									className="h-full w-full object-cover transition-all group-hover:scale-125"
-									src="/assets/imgs/blog-2.jpg"
+									src="./assets/imgs/blog-2.jpg"
 									alt=""
 								/>
 							</a>
@@ -71,7 +71,7 @@ const Blog = () => {
 							<a href="#!">
 								<img
 									className="h-full w-full object-cover transition-all group-hover:scale-125"
-									src="/assets/imgs/blog-3.jpg"
+									src="./assets/imgs/blog-3.jpg"
 									alt=""
 								/>
 							</a>

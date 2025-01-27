@@ -5,6 +5,7 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 const viteConfig = defineConfig({
+	base: '/f8-html-css-project-modulars',
 	resolve: {
 		alias: [
 			{

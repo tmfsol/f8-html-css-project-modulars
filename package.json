@@ -1,4 +1,5 @@
 {
+	"homepage": "https://tmfsol.github.io/f8-html-css-project-modulars/",
 	"name": "f8-html-css-project-modulars",
 	"private": true,
 	"version": "0.0.0",
@@ -33,6 +34,7 @@
 		"eslint-plugin-react-hooks": "^5.0.0",
 		"eslint-plugin-react-refresh": "^0.4.16",
 		"fluid-tailwind": "^1.0.4",
+		"gh-pages": "^6.3.0",
 		"globals": "^15.14.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.4.1",
@@ -53,6 +55,8 @@
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"preview": "vite preview",
+		"predeploy": "pnpm build",
+		"deploy": "gh-pages -d dist",
 		"lint": "eslint --fix",
 		"lint:all": "eslint --fix \"src/**/*.{js,ts,jsx,tsx}\"",
 		"pretty": "prettier --write",

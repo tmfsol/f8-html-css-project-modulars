@@ -11,12 +11,12 @@ const About = () => {
 					<div className="relative mt-22 flex gap-x-5 before:absolute before:left-[calc(50%-160px)] before:top-[calc(50%-160px)] before:h-80 before:w-80 before:rounded-full before:bg-primary-600 before:blur-[174px]">
 						<img
 							className="relative h-[480px] w-[284px] rounded-full object-cover"
-							src="/assets/imgs/about-1.jpg"
+							src="./assets/imgs/about-1.jpg"
 							alt=""
 						/>
 						<img
 							className="h-[480px] w-[284px] -translate-y-19 rounded-full object-cover"
-							src="/assets/imgs/about-2.jpg"
+							src="./assets/imgs/about-2.jpg"
 							alt=""
 						/>
 
@@ -38,7 +38,7 @@ const About = () => {
 									>
 										<img
 											className="block h-4 w-4 rounded-full border border-white object-cover"
-											src="/assets/imgs/team-1.jpg"
+											src="./assets/imgs/team-1.jpg"
 											alt=""
 										/>
 									</a>
@@ -48,7 +48,7 @@ const About = () => {
 									>
 										<img
 											className="block h-4 w-4 rounded-full border border-white object-cover"
-											src="/assets/imgs/team-2.jpg"
+											src="./assets/imgs/team-2.jpg"
 											alt=""
 										/>
 									</a>
@@ -58,7 +58,7 @@ const About = () => {
 									>
 										<img
 											className="block h-4 w-4 rounded-full border border-white object-cover"
-											src="/assets/imgs/team-3.jpg"
+											src="./assets/imgs/team-3.jpg"
 											alt=""
 										/>
 									</a>
@@ -68,7 +68,7 @@ const About = () => {
 									>
 										<img
 											className="block h-4 w-4 rounded-full border border-white object-cover"
-											src="/assets/imgs/team-4.jpg"
+											src="./assets/imgs/team-4.jpg"
 											alt=""
 										/>
 									</a>
@@ -104,12 +104,12 @@ const About = () => {
 
 					<img
 						className="absolute -top-[26px] left-[82px]"
-						src="/assets/imgs/decorate-line.png"
+						src="./assets/imgs/decorate-line.png"
 						alt=""
 					/>
 					<img
 						className="absolute -top-[20px] left-[40px]"
-						src="/assets/imgs/decorate-snowflakes.png"
+						src="./assets/imgs/decorate-snowflakes.png"
 						alt=""
 					/>
 				</div>

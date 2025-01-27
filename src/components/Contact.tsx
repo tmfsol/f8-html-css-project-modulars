@@ -30,7 +30,7 @@ const Contact = () => {
 						</div>
 						<img
 							className="absolute bottom-0 right-23 h-[450px] w-[440px] object-cover"
-							src="/assets/imgs/process-1.png"
+							src="./assets/imgs/process-1.png"
 							alt=""
 						/>
 					</div>

@@ -27,42 +27,42 @@ const Hero = () => {
 					<div className="relative flex w-[58%] flex-shrink-0 justify-end gap-x-5 pr-6 before:absolute before:left-[calc(50%-10rem-12px)] before:top-[calc(50%-10rem+80px)] before:h-80 before:w-80 before:rounded-full before:bg-primary-600 before:blur-[174px]">
 						<img
 							className="relative block h-[466px] w-[202px] rounded-b-full rounded-t-full object-cover"
-							src="/assets/imgs/media-1.jpg"
+							src="./assets/imgs/media-1.jpg"
 							alt=""
 						/>
 						<img
 							className="block h-[466px] w-[202px] translate-y-20 rounded-b-full rounded-t-full object-cover"
-							src="/assets/imgs/media-2.jpg"
+							src="./assets/imgs/media-2.jpg"
 							alt=""
 						/>
 						<img
 							className="relative block h-[466px] w-[202px] rounded-b-full rounded-t-full object-cover"
-							src="/assets/imgs/media-3.jpg"
+							src="./assets/imgs/media-3.jpg"
 							alt=""
 						/>
 					</div>
 
 					<img
 						className="absolute -top-8 right-[298px]"
-						src="/assets/imgs/decorate-line.png"
+						src="./assets/imgs/decorate-line.png"
 						alt=""
 					/>
 
 					<img
 						className="absolute -top-[24px] left-[254px]"
-						src="/assets/imgs/decorate-snowflakes.png"
+						src="./assets/imgs/decorate-snowflakes.png"
 						alt=""
 					/>
 
 					<img
 						className="absolute -bottom-[144px] right-[70px] rotate-180"
-						src="/assets/imgs/decorate-line.png"
+						src="./assets/imgs/decorate-line.png"
 						alt=""
 					/>
 
 					<img
 						className="absolute -bottom-[138px] right-[27px]"
-						src="/assets/imgs/decorate-snowflakes.png"
+						src="./assets/imgs/decorate-snowflakes.png"
 						alt=""
 					/>
 				</div>

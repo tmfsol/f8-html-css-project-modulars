@@ -20,7 +20,7 @@ const Service = () => {
 							<a href="#!">
 								<img
 									className="h-full w-full object-cover transition group-hover:scale-125"
-									src="/assets/imgs/service-1.jpg"
+									src="./assets/imgs/service-1.jpg"
 									alt=""
 								/>
 							</a>
@@ -40,7 +40,7 @@ const Service = () => {
 							<a href="#!">
 								<img
 									className="h-full w-full object-cover transition group-hover:scale-125"
-									src="/assets/imgs/service-2.jpg"
+									src="./assets/imgs/service-2.jpg"
 									alt=""
 								/>
 							</a>
@@ -61,7 +61,7 @@ const Service = () => {
 							<a href="#!">
 								<img
 									className="h-full w-full object-cover transition group-hover:scale-125"
-									src="/assets/imgs/service-3.jpg"
+									src="./assets/imgs/service-3.jpg"
 									alt=""
 								/>
 							</a>
