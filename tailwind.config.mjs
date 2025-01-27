@@ -29,6 +29,7 @@ const tailwindConfig = {
 				200: 'rgba(var(--color-primary-200))',
 				300: 'rgba(var(--color-primary-300))',
 				400: 'rgba(var(--color-primary-400))',
+				500: 'rgba(var(--color-primary-500))',
 				600: 'rgba(var(--color-primary-600))',
 				900: 'rgba(var(--color-primary-900))'
 			},

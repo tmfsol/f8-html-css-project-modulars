@@ -17,7 +17,7 @@ const Blog = () => {
 						<figure className="h-[320px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
-									className="h-full w-full object-cover transition-all group-hover:scale-110"
+									className="h-full w-full object-cover transition-all group-hover:scale-125"
 									src="/assets/imgs/blog-1.jpg"
 									alt=""
 								/>
@@ -42,7 +42,7 @@ const Blog = () => {
 						<figure className="h-[320px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
-									className="h-full w-full object-cover transition-all group-hover:scale-110"
+									className="h-full w-full object-cover transition-all group-hover:scale-125"
 									src="/assets/imgs/blog-2.jpg"
 									alt=""
 								/>
@@ -67,7 +67,7 @@ const Blog = () => {
 						<figure className="h-[320px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
-									className="h-full w-full object-cover transition-all group-hover:scale-110"
+									className="h-full w-full object-cover transition-all group-hover:scale-125"
 									src="/assets/imgs/blog-3.jpg"
 									alt=""
 								/>

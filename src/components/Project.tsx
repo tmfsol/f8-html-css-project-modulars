@@ -20,7 +20,7 @@ const Project = () => {
 							</p>
 							<div className="mt-3 flex items-center font-medium">
 								<a
-									className="text-white"
+									className="text-white hover:underline"
 									href="#!"
 								>
 									Browse all Projects
@@ -49,8 +49,8 @@ const Project = () => {
 				<div className="mt-16 overflow-hidden rounded-[22px]">
 					<iframe
 						className="aspect-video w-full"
-						src="https://www.youtube.com/embed/ovNIpx_I8lE"
-						title="Hello Youtube, mình là Tí - một Software Engineer"
+						src="https://www.youtube.com/embed/jjNrt8fcuw8"
+						title="CƠM ĐOÀN VIÊN - THÀNH ĐẠT x ĐÔNG THIÊN ĐỨC | VIDEO OFFICIAL NEW VERSION"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerPolicy="strict-origin-when-cross-origin"
 						allowFullScreen

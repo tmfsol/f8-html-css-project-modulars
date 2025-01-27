@@ -19,7 +19,7 @@ const Service = () => {
 						<figure className="h-[318px] w-[370px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
-									className="h-full w-full object-cover transition-all hover:scale-110"
+									className="h-full w-full object-cover transition-all hover:scale-125"
 									src="/assets/imgs/service-1.jpg"
 									alt=""
 								/>
@@ -38,7 +38,7 @@ const Service = () => {
 						<figure className="h-[318px] w-[370px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
-									className="h-full w-full object-cover transition-all hover:scale-110"
+									className="h-full w-full object-cover transition-all hover:scale-125"
 									src="/assets/imgs/service-2.jpg"
 									alt=""
 								/>
@@ -59,7 +59,7 @@ const Service = () => {
 						<figure className="h-[318px] w-[370px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
-									className="h-full w-full object-cover transition-all hover:scale-110"
+									className="h-full w-full object-cover transition-all hover:scale-125"
 									src="/assets/imgs/service-3.jpg"
 									alt=""
 								/>
