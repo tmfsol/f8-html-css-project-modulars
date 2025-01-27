@@ -4,7 +4,7 @@ import DocumentIcon from '~/components/icons/DocumentIcon';
 
 const Feature = () => {
 	return (
-		<div className="mt-10 pb-32 pt-15">
+		<section className="mt-10 pb-32 pt-15">
 			<div className="container">
 				<h2 className="mx-auto w-[520px] text-center text-[2.625rem] font-semibold leading-[3.25rem] text-text-800">
 					Share the features that help your customers
@@ -50,7 +50,7 @@ const Feature = () => {
 					</a>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

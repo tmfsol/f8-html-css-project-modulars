@@ -1,10 +1,8 @@
 import SectionTitle from '~/components/SectionTitle';
 
 const Process = () => {
-	console.log('Process');
-
 	return (
-		<div className="py-10">
+		<section className="py-10">
 			<div className="container">
 				<SectionTitle
 					className="mt-9"
@@ -61,7 +59,7 @@ const Process = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

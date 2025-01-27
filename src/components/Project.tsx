@@ -1,10 +1,8 @@
 import SectionTitle from '~/components/SectionTitle';
 
 const Project = () => {
-	console.log('Project');
-
 	return (
-		<div className="mt-27 bg-primary-900 py-16">
+		<section className="mt-27 bg-primary-900 py-16">
 			<div className="container">
 				<div className="mt-13">
 					<div className="flex items-center justify-between">
@@ -59,7 +57,7 @@ const Project = () => {
 					/>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
