@@ -23,7 +23,7 @@ const Header = () => {
 								<li>
 									<a
 										className="relative px-2 py-1 font-public-sans text-lg font-medium after:absolute after:-bottom-7 after:left-2 after:block after:h-[2px] after:w-4 after:bg-primary after:opacity-100 after:transition after:duration-700 hover:text-text-800 hover:after:opacity-100"
-										href="#!"
+										href="/"
 									>
 										Home
 									</a>
@@ -31,7 +31,7 @@ const Header = () => {
 								<li>
 									<a
 										className="relative px-2 py-1 font-public-sans text-lg font-medium after:absolute after:-bottom-7 after:left-2 after:block after:h-[2px] after:w-4 after:bg-primary after:opacity-0 after:transition after:duration-700 hover:text-text-800 hover:after:opacity-100"
-										href="#!"
+										href="#about"
 									>
 										About
 									</a>
@@ -39,7 +39,7 @@ const Header = () => {
 								<li>
 									<a
 										className="relative px-2 py-1 font-public-sans text-lg font-medium after:absolute after:-bottom-7 after:left-2 after:block after:h-[2px] after:w-4 after:bg-primary after:opacity-0 after:transition after:duration-700 hover:text-text-800 hover:after:opacity-100"
-										href="#!"
+										href="#blog"
 									>
 										Blog
 									</a>
@@ -47,7 +47,7 @@ const Header = () => {
 								<li>
 									<a
 										className="relative px-2 py-1 font-public-sans text-lg font-medium after:absolute after:-bottom-7 after:left-2 after:block after:h-[2px] after:w-4 after:bg-primary after:opacity-0 after:transition after:duration-700 hover:text-text-800 hover:after:opacity-100"
-										href="#!"
+										href="#contact"
 									>
 										Contact
 									</a>

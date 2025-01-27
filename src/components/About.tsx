@@ -2,7 +2,10 @@ import SectionTitle from '~/components/SectionTitle';
 
 const About = () => {
 	return (
-		<section className="pb-10 pt-21">
+		<section
+			className="pb-10 pt-21"
+			id="about"
+		>
 			<div className="container">
 				<div className="relative flex justify-between">
 					<div className="relative mt-22 flex gap-x-5 before:absolute before:left-[calc(50%-160px)] before:top-[calc(50%-160px)] before:h-80 before:w-80 before:rounded-full before:bg-primary-600 before:blur-[174px]">

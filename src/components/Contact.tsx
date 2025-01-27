@@ -1,14 +1,17 @@
 import SectionTitle from '~/components/SectionTitle';
 
-const Process = () => {
+const Contact = () => {
 	return (
-		<section className="py-10">
+		<section
+			className="py-10"
+			id="contact"
+		>
 			<div className="container">
 				<SectionTitle
 					className="mt-9"
 					title="OUR PROCESS"
 				>
-					A simple ,yet effective three step process
+					A simple, yet effective three step process
 				</SectionTitle>
 
 				<div className="mt-20">
@@ -63,4 +66,4 @@ const Process = () => {
 	);
 };
 
-export default Process;
+export default Contact;

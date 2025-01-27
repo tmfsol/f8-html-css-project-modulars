@@ -3,7 +3,10 @@ import SectionTitle from '~/components/SectionTitle';
 
 const Blog = () => {
 	return (
-		<section className="py-14">
+		<section
+			className="py-14"
+			id="blog"
+		>
 			<div className="container">
 				<div className="container flex justify-between">
 					<SectionTitle title="BLOG & ARTICLES">Take a look at our latest articles and resources</SectionTitle>
@@ -26,7 +29,7 @@ const Blog = () => {
 
 						<div className="cursor-pointer transition-all group-hover:px-8">
 							<Button
-								className="mt-[26px] bg-primary-200 text-black hover:bg-primary-900 hover:text-white"
+								className="mt-[26px]"
 								size="sm"
 							>
 								STORIES
@@ -51,7 +54,7 @@ const Blog = () => {
 
 						<div className="cursor-pointer transition-all group-hover:px-8">
 							<Button
-								className="mt-[26px] bg-primary-200 text-black hover:bg-primary-900 hover:text-white"
+								className="mt-[26px]"
 								size="sm"
 							>
 								STORIES
@@ -76,7 +79,7 @@ const Blog = () => {
 
 						<div className="cursor-pointer transition-all group-hover:px-8">
 							<Button
-								className="mt-[26px] bg-primary-200 text-black hover:bg-primary-900 hover:text-white"
+								className="mt-[26px]"
 								size="sm"
 							>
 								STORIES

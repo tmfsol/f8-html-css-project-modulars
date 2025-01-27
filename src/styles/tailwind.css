@@ -38,9 +38,8 @@
 		}
 	}
 
-	/* Font family */
 	html {
-		@apply font-poppins text-text;
+		@apply scroll-smooth font-poppins text-text;
 	}
 }
 

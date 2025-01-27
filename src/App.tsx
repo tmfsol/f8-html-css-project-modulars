@@ -1,11 +1,11 @@
 import About from '~/components/About';
 import Blog from '~/components/Blog';
 import Brand from '~/components/Brand';
+import Contact from '~/components/Contact';
 import Feature from '~/components/Feature';
 import Footer from '~/components/Footer';
 import Header from '~/components/Header';
 import Hero from '~/components/Hero';
-import Process from '~/components/Process';
 import Project from '~/components/Project';
 import Service from '~/components/Service';
 
@@ -19,7 +19,7 @@ const App = () => {
 				<Brand />
 				<Service />
 				<About />
-				<Process />
+				<Contact />
 				<Project />
 				<Feature />
 				<Blog />
