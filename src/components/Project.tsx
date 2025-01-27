@@ -60,12 +60,12 @@ const Project = () => {
 
 					<img
 						className="absolute right-[230px] top-[200px]"
-						src="/assets/imgs/decorate-snowflakes.png"
+						src="./assets/imgs/decorate-snowflakes.png"
 						alt=""
 					/>
 					<img
 						className="absolute right-[130px] top-[220px] rotate-[70deg]"
-						src="/assets/imgs/decorate-line.png"
+						src="./assets/imgs/decorate-line.png"
 						alt=""
 					/>
 				</div>
