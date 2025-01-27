@@ -28,7 +28,6 @@ const SectionTitle = ({
 				</p>
 			)}
 
-			{/* after:bg-primary-900 */}
 			<h2
 				className={twMerge(`w-[520px] text-[2.625rem] font-semibold leading-[3.25rem] ${color}`, {
 					'mt-3': !!title,

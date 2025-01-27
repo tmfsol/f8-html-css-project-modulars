@@ -16,7 +16,7 @@ const Blog = () => {
 				</div>
 
 				<div className="mt-22 flex justify-between gap-x-[30px]">
-					<article className="group w-[360px] rounded-[20px] pb-3 hover:shadow-xl">
+					<article className="group w-[360px] cursor-pointer overflow-hidden rounded-[20px] pb-3 hover:shadow-xl">
 						<figure className="h-[320px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
@@ -27,21 +27,21 @@ const Blog = () => {
 							</a>
 						</figure>
 
-						<div className="cursor-pointer transition-all group-hover:px-8">
+						<div className="transition-all group-hover:px-8">
 							<Button
 								className="mt-[26px]"
 								size="sm"
 							>
 								STORIES
 							</Button>
-							<p className="mt-3 border-b-[1px] border-border pb-[38px] text-[1.125rem] font-semibold leading-[1.875rem] text-primary-900">
+							<p className="mt-3 line-clamp-3 h-[98px] border-b-[1px] border-border text-[1.125rem] font-semibold leading-[1.875rem] text-primary-900">
 								What did we learn from nunning over 100 design sprints in less the year?
 							</p>
 							<p className="mt-4 text-right text-[0.625rem] font-medium leading-[0.75rem]">JANUARY 29, 2022</p>
 						</div>
 					</article>
 
-					<article className="group w-[360px] rounded-[20px] pb-3 hover:shadow-xl">
+					<article className="group w-[360px] cursor-pointer overflow-hidden rounded-[20px] pb-3 hover:shadow-xl">
 						<figure className="h-[320px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
@@ -52,21 +52,21 @@ const Blog = () => {
 							</a>
 						</figure>
 
-						<div className="cursor-pointer transition-all group-hover:px-8">
+						<div className="transition-all group-hover:px-8">
 							<Button
 								className="mt-[26px]"
 								size="sm"
 							>
 								STORIES
 							</Button>
-							<p className="mt-3 border-b-[1px] border-border pb-[38px] text-[1.125rem] font-semibold leading-[1.875rem] text-primary-900">
+							<p className="mt-3 line-clamp-3 h-[98px] border-b-[1px] border-border text-[1.125rem] font-semibold leading-[1.875rem] text-primary-900">
 								The difference between the UI/UX design a simple guide for beginner’s
 							</p>
 							<p className="mt-4 text-right text-[0.625rem] font-medium leading-[0.75rem]">JANUARY 29, 2022</p>
 						</div>
 					</article>
 
-					<article className="group w-[360px] rounded-[20px] pb-3 hover:shadow-xl">
+					<article className="group w-[360px] cursor-pointer overflow-hidden rounded-[20px] pb-3 hover:shadow-xl">
 						<figure className="h-[320px] overflow-hidden rounded-t-[20px]">
 							<a href="#!">
 								<img
@@ -77,15 +77,15 @@ const Blog = () => {
 							</a>
 						</figure>
 
-						<div className="cursor-pointer transition-all group-hover:px-8">
+						<div className="transition-all group-hover:px-8">
 							<Button
 								className="mt-[26px]"
 								size="sm"
 							>
 								STORIES
 							</Button>
-							<p className="mt-3 border-b-[1px] border-border pb-[38px] text-[1.125rem] font-semibold leading-[1.875rem] text-primary-900">
-								How marketing can help your business more than anything.
+							<p className="mt-3 line-clamp-3 h-[98px] border-b-[1px] border-border text-[1.125rem] font-semibold leading-[1.875rem] text-primary-900">
+								How marketing can help your business more than anything. How marketing can help your business.
 							</p>
 							<p className="mt-4 text-right text-[0.625rem] font-medium leading-[0.75rem]">JANUARY 29, 2022</p>
 						</div>
