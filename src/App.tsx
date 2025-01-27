@@ -4,6 +4,7 @@ import Footer from '~/components/Footer';
 import Header from '~/components/Header';
 import Hero from '~/components/Hero';
 import Process from '~/components/Process';
+import Project from '~/components/Project';
 import Service from '~/components/Service';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
 				<Service />
 				<About />
 				<Process />
+				<Project />
 			</main>
 
 			<Footer />
