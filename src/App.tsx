@@ -1,5 +1,6 @@
 import About from '~/components/About';
 import Brand from '~/components/Brand';
+import Feature from '~/components/Feature';
 import Footer from '~/components/Footer';
 import Header from '~/components/Header';
 import Hero from '~/components/Hero';
@@ -19,6 +20,7 @@ const App = () => {
 				<About />
 				<Process />
 				<Project />
+				<Feature />
 			</main>
 
 			<Footer />

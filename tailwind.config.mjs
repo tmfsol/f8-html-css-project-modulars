@@ -49,7 +49,8 @@ const tailwindConfig = {
 
 			border: {
 				DEFAULT: 'rgba(var(--color-border-default))',
-				500: 'rgba(var(--color-border-500))'
+				500: 'rgba(var(--color-border-500))',
+				600: 'rgba(var(--color-border-600))'
 			}
 		},
 
