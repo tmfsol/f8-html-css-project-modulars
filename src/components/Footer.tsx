@@ -3,7 +3,7 @@ import TwitterIcon from '~/components/icons/TwitterIcon';
 
 const Footer = () => {
 	return (
-		<footer className="mt-11 bg-primary-900 pb-24 pt-18">
+		<footer className="relative mt-11 bg-primary-900 pb-24 pt-18">
 			<div className="container">
 				<div className="relative flex justify-between after:absolute after:-bottom-11 after:left-0 after:right-0 after:h-[1px] after:bg-gradient-to-r after:from-transparent after:via-border after:to-transparent">
 					<div className="w-[420px]">
@@ -209,6 +209,9 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
+				<p className="absolute bottom-2 left-0 right-0 text-center font-medium text-white">
+					&copy; 2025 tmfsol. All rights reserved.
+				</p>
 			</div>
 		</footer>
 	);
